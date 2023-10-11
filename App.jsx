@@ -2,8 +2,8 @@ import { StyleSheet } from 'react-native'
 import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { NavigationContainer } from '@react-navigation/native'
-import A from './A'
-import B from './B'
+import A from './Screen_One'
+import B from './Screen_Two'
 
 const App = () => {
   const Stack = createNativeStackNavigator()
